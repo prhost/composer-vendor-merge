@@ -1,0 +1,16 @@
+{
+  "name": "prhost/composer-vendor-merge",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kallef",
+      "email": "prhost@prhost.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Prhost\\": "./src"
+    }
+  }
+}

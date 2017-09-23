@@ -10,17 +10,17 @@ You can use this class both standalone and via composer package `composer requir
 ### Example via Composer package
 
 **Install the package**
+
 `composer require prhost/composer-vendor-merge`
 
 **Instance and init the classe**
-```
+```php
 $manager = new Prhost\ComposerMergeVendor();
 $manager->init();
 ```
 
 **Adds other vendor by project**
-
-```
+```php
 //Other vendor
 $manager->addVendor(__DIR__ . '/path/to/other/vendor');
 ```
@@ -28,19 +28,18 @@ $manager->addVendor(__DIR__ . '/path/to/other/vendor');
 ### Example Standalone
 
 **Require the classe**
-```
+```php
 require_once 'src/ComposerMergeVendor.php';
 ```
 
 **Instance and init the classe**
-```
+```php
 $manager = new Prhost\ComposerMergeVendor();
 $manager->init();
 ```
 
 **Adds other vendor by project**
-
-```
+```php
 //Other vendor
 $manager->addVendor(__DIR__ . '/path/to/other/vendor');
 ```

@@ -46,5 +46,5 @@ $manager->addVendor(__DIR__ . '/path/to/other/vendor');
 
 ### Credits
 
-* @kallefpr
+* [@kallefpr](https://twitter.com/kallefpr)
 * [OctoberCMS](http://octobercms.com)

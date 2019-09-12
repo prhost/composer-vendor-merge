@@ -14,9 +14,9 @@ class ComposerMergeVendor
      */
     protected $loader;
 
-    public function init()
+    public function init($rootDir = __DIR__)
     {
-        $this->loader = include __DIR__ . '/vendor/autoload.php';
+        $this->loader = include $rootDir . '/vendor/autoload.php';
         $this->preloadPools();
     }
 
